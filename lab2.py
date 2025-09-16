@@ -10,5 +10,8 @@ if __name__ == "__main__":
     "NLP is a subfield of AI."
     ]
     doc_mat = count_vectorizer.fit_transform(corpus)
-    print(doc_mat)
+    print("doc1 = ",doc_mat[0])
+    print("doc2 = ",doc_mat[1])
+    print("doc3 = ",doc_mat[2])
+
     print(count_vectorizer.vocabulary_)
