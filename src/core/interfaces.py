@@ -14,6 +14,7 @@ class Vectorizer(ABC):
         pass
     @abstractmethod
     def fit_transform(self, corpus: list[str]) -> list[list[int]]:
-        pass
-    
+        self.fit(corpus)
+        return self.transform(corpus)
+            
     
