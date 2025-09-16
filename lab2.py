@@ -5,7 +5,7 @@ if __name__ == "__main__":
     regex_tokenizer = RegexTokenizer()
     count_vectorizer = CountVectorizer(regex_tokenizer)
     corpus = [
-    "I love NLP.",
+    "I love NLP NLP.",
     "I love programming.",
     "NLP is a subfield of AI."
     ]
