@@ -24,5 +24,5 @@ Phân tích định tính:
 | Pretrain-LSTM | qa_factoid      | qa_currency    | transport_taxi    |
 | Scratch-LSTM  | play_game       | play_game      | play_game         |
 
-- Mô hình TF-IDF là mo hình duy nhất có đưa ra được nhãn đúng với Weather Query
+- Mô hình TF-IDF là mô hình duy nhất có đưa ra được nhãn đúng với Weather Query
 - Kết quả đi ngược với kì vọng rằng các mô hình mới hơn như LSTM sẽ cho kết quả tốt hơn các mô hình cổ điển như W2Vec hay TF-IDF
